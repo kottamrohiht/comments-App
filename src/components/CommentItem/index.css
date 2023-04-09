@@ -1,0 +1,111 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+  font-size: 15px;
+  font-weight: 800;
+  margin-right: 10px;
+  font-family: 'Roboto';
+}
+
+.user-comment {
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+
+.commented-time {
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.like-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.line {
+  width: 100%;
+  color: #7e858e;
+}
+
+.like-img-name-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.like-text {
+  color: #7e858e;
+  font-size: 14px;
+}
+
+.delete-img {
+  height: 15px;
+}
+
+.like-img {
+  height: 15px;
+}
+.button-like-img {
+  border: 0px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.likedColor {
+  color: #0284c7;
+}
+
+.button-like-img {
+  background-color: white;
+}
+
+.like-text {
+  font-size: 15px;
+  font-weight: 600;
+}

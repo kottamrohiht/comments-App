@@ -1,0 +1,110 @@
+.app-container {
+  height: 100vh;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    height: 100vh;
+    padding: 10px;
+    padding: 30px;
+    overflow: auto;
+  }
+
+  .inner-container {
+    display: flex;
+  }
+}
+
+.comments-img {
+  width: 80%;
+  height: 20vh;
+  align-self: center;
+}
+.comments-img-small {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-img {
+    display: none;
+  }
+  .comments-img-small {
+    display: block;
+    height: 40vh;
+    margin-left: auto;
+  }
+}
+
+.name-input {
+  font-family: 'Roboto';
+  padding: 5px;
+}
+.comment-input {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-family: 'Roboto';
+  padding: 5px;
+}
+
+.from-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-list-container {
+    height: 40%;
+    overflow-y: scroll;
+  }
+}
+
+.comments-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 5px;
+}
+
+.inital-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  width: 15px;
+  border-radius: 5px;
+  background-color: #0284c7;
+  margin-right: 10px;
+  color: white;
+  font-size: 10px;
+}
+
+.Comments {
+  font-size: 14px;
+}
+
+.comments-count-container {
+  display: flex;
+  align-items: center;
+}
